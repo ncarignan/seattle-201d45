@@ -1,0 +1,12 @@
+*{
+  outline: dotted red;
+}
+
+p {
+  color: #c5a;
+}
+
+li {
+  font-size: 30px;
+  border: red solid medium;
+}
