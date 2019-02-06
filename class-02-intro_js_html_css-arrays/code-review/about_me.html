@@ -1,0 +1,45 @@
+<html>
+
+<head>
+  <title>Customer Data</title>
+</head>
+<body>
+  
+  <!--Welcome the customer.-->
+  <h1>Thank you for offering to join the SalesPoint network</h1>
+  <h2>We would like to know more about you, so we can provide you with the best support.</h2>
+  <!-- Provides as listing of the questions we are asking the customer by console.-->
+  <p>
+    What is your name?<br />
+    What is the name of your business?<br />
+    How many employees do you have?<br />
+    Tell us where you are located (city):<br />
+  </p>
+  <!-- Collects information on name, business name, number of employees, and city from the customer.
+        Provide a console log of the customer's response to each question.-->
+  <script>
+    console.log('Customer Data Collection');
+
+    //Ask the customer for name, provide feedback to customer that you have info., and send info. to log.
+    var name = prompt('What is your name? ');
+    console.log('Name: ' + name);
+    alert('Hi ' + name + '! It is nice to meet you!');
+
+    //Ask the customer for business name, provide feedback to customer that you have info., and send info. to log.
+    console.log('Business name: ' + business);
+    var business = prompt('What is the name of your business? ');
+    alert(name + ', We are pleased to have ' + business + ' join the SalesPoint team.');
+
+    //Ask the customer for the number of employees at company name, provide feedback to customer that you have info, and send info. to log.
+    var employees = prompt('How many employees do you have?');
+    alert(name + ', We have a number of companies with ' + employees + ' employees. We hope ' + business + ' finds the networking opportunities at SalesPoint helpful.');
+    console.log('# employees: ' + employees);
+
+    //Ask the customer for city, provide feedback to customer that you have info, and send info. to log.
+    var city = prompt('Tell us where you are located (city): ');
+    alert(name + ', We are delighted to have ' + business + ' representing ' + city + ' in the SalesPoint network. Your perspective on businesses with ' + employees + ' employees will be very helpful.');
+    console.log('Business location: ' + city);  
+  </script>
+</body>
+
+</html>
