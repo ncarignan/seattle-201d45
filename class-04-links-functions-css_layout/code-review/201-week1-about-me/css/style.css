@@ -1,0 +1,43 @@
+body{
+    background-color: blueviolet;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+    color:rgb(31, 212, 14);
+}
+
+p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+}
+
+
+
+ol{
+    background-color: lightcyan;
+    border-width: 10px;
+}
+
+/*links to items for water pokemon*/
+.water{
+    background-color: blue;
+    color:white;
+    font-size: 20px;
+    margin: 5%;
+}
+
+/*links to items for fire pokemon*/
+.fire{
+    background-color:red;
+    color: rgb(159, 193, 199);
+    font-size: 30px;
+    margin: 5%;
+}
+
+/*links to items for grass pokemon*/
+.grass{
+    background-color: greenyellow;
+    color: rgb(20, 100, 200);
+    font-size: 40px;
+    margin: 5%;
+}
